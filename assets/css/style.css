@@ -4,4 +4,58 @@
     box-sizing: border-box;
   }
 
-header 
+header {
+    height: 20vh;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ff7034;
+    color: white;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.game {
+    margin: 5%;
+    width: 50%;
+    background-color: bisque;
+    height: 60vh;
+}
+.score {
+    width: 30%;
+    text-align: right;
+    background-color: aqua;
+    height: 60vh;
+    margin: 5%;
+}
+
+p {
+    text-align: center;
+    margin-top: 30%;    
+    font-size: 70px;
+    letter-spacing: 35px;
+    border-bottom: 3px solid black;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin-right: 30px
+}
+
+li {
+    padding: 50px;
+    text-decoration:underline; 
+    font-size: 70px;
+}
